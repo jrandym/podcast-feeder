@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y \
-    python-is-python3 \
+    python3-full \
     python3-pip \
     git
 
